@@ -119,7 +119,6 @@ let vm = new Vue({
 		},
 		editEsc: function(item) {
 			item.title = this.editingPlain;
-//			console.log(item,this.editingPlain);
 			this.editingIndex = ''
 		},
 		removeTodos: function() {
